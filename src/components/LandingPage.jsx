@@ -105,7 +105,7 @@ function Hero({ fb }) {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-16 overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-start px-6 pt-[19rem] sm:pt-[20rem] overflow-hidden"
     >
       {/* Five equal vertical bands forming a square */}
       <div
@@ -118,7 +118,7 @@ function Hero({ fb }) {
       </div>
 
       {/* Massive FOTOBO logo */}
-      <div ref={logoRef} className="w-full flex justify-center mt-16 sm:mt-20">
+      <div ref={logoRef} className="w-full flex justify-center">
         <BrandMark className="w-[20rem] sm:w-[28rem] md:w-[36rem] lg:w-[44rem] h-auto" />
       </div>
 
